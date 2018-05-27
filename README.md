@@ -7,7 +7,9 @@ https://spring.io/guides/gs/multi-module/
 
 ## Usage and setup (Local machine)
 
-1. Install and configue Maven in local machine.
-1. Clone  cloud-heartin-build-tools into local machine. Run 'mvn clean install'
-1. Clone cloud-heartin-parent-java. Run 'mvn clean install'.
-1. Build any project that uses cloud-heartin-parent-java as parent.
+1. Clone simple-starter-build-tools: <br>
+git clone https://github.com/heartin/simple-starter-build-tools.git <br>
+Run './mvnw clean install' or 'mvn clean install'
+1. Clone simple-starter-parent-java: <br>
+git clone https://github.com/heartin/simple-starter-parent-java.git <br>
+Run './mvnw clean install' or 'mvn clean install'
