@@ -100,6 +100,7 @@
                             <!-- Used failOnViolation to log errors on console -->
                             <!-- See https://maven.apache.org/plugins/maven-checkstyle-plugin/check-mojo.html -->
                             <failOnViolation>true</failOnViolation>
+							<violationSeverity>error</violationSeverity>
 						</configuration>
 					</execution>
 				</executions>
